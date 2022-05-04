@@ -1,0 +1,14 @@
+.attribute { 
+    @apply rounded-md;
+    @apply flex flex-col justify-between items-center;
+    @apply bg-gray-200;
+    @apply m-2 w-20;
+    @apply overflow-hidden; 
+    @apply drop-shadow-lg;
+	@apply text-center;
+}
+
+.attribute__header { 
+    @apply bg-red-500;
+    @apply min-w-full;
+}

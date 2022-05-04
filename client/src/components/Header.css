@@ -1,0 +1,7 @@
+.header {
+    @apply p-2 w-full;
+}
+
+.nav__menu{
+    @apply flex flex-row;
+}

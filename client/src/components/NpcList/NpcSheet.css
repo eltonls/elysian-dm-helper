@@ -1,0 +1,23 @@
+.sheet {
+    @apply m-2; 
+}
+
+.sheet__header{
+    @apply flex justify-center; 
+}
+.sheet__header > .btn {
+    @apply self-end;
+    @apply bg-red-500;
+    @apply rounded-full;
+    transition: all .5s;
+}
+
+.sheet__header > .btn:hover {
+    transform: scale(1.1);
+}
+
+.sheet__name {
+    @apply border-b-2 border-solid border-gray-300 p-2; 
+}
+
+
