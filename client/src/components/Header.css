@@ -1,7 +1,17 @@
 .header {
     @apply p-2 w-full;
+    @apply flex flex-row justify-between;
+    @apply bg-red-600 text-white;
+}
+
+.heading-primary {
+    @apply font-bold text-xl;
 }
 
 .nav__menu{
     @apply flex flex-row;
+}
+
+.nav__item{
+    @apply m-2;
 }
