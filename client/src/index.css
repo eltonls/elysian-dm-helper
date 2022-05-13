@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading-secondary {
+    @apply uppercase font-semibold text-xl tracking-wide;
+}
+
+.btn {
+    @apply rounded-md;
+    @apply py-2 px-5; 
+}
+
+.btn--red{
+    @apply bg-red-500;
+}

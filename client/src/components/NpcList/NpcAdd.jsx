@@ -1,18 +1,19 @@
+import AttributeList from "./AttributeList";
 import "./NpcAdd.css";
 
 const NpcAdd = () => {
     return (
         <form className="npc-add" action="">
+            <h2 className="heading-secondary">Add Npc</h2> 
             <formgroup className="npc-add__form-group">
                 <label className="npc-add__label" htmlFor="name">Name</label>
-                <input className="npc-add__name" type="text" />
+                <input className="npc-add__input" type="text" />
                 <label className="npc-add__label" htmlFor="title">Title</label>
-                <input className="npc-add__title" type="" />
+                <input className="npc-add__input" type="text" />
             </formgroup>
 
             <formgroup className="npc-add__form-group">
-                <label className="npc-add__label" htmlFor="">Attribute Name</label>
-
+                <AttributeList /> 
             </formgroup>
         </form>
     )
